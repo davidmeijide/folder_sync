@@ -1,0 +1,6 @@
+__pycache__
+.vscode
+sync.log
+test.log
+replica
+source

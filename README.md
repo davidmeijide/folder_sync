@@ -17,12 +17,7 @@ The Folder Synchronization Application is a Python program that synchronizes two
 
 1. Clone the repository or download the source code.
 
-2. Install the required dependencies:
-```
-pip install -r requirements.txt
-```
-
-3. Run the application with the following command-line arguments:
+2. Run the application with the following command-line arguments:
 ```
 python3 folder_sync.py source_folder replica_folder log_file interval
 ```
@@ -31,9 +26,9 @@ python3 folder_sync.py source_folder replica_folder log_file interval
 - `log_file`: Path to the log file to record the synchronization operations. Creates it if it does not exist.
 - `interval`: Synchronization interval in seconds.
 
-4. The application will start synchronizing the folders based on the provided interval. Any file creations, modifications, or deletions in the source folder will be reflected in the replica folder.
+3. The application will start synchronizing the folders based on the provided interval. Any file creations, modifications, or deletions in the source folder will be reflected in the replica folder.
 
-5. The synchronization operations will be logged to the specified log file and displayed in the console output.
+4. The synchronization operations will be logged to the specified log file and displayed in the console output.
 
 ## Example
 
