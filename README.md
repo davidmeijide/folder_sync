@@ -32,10 +32,18 @@ python3 folder_sync.py source_folder replica_folder log_file interval
 
 ## Example
 
-pytho3n folder_sync.py /path/to/source /path/to/replica sync.log 60
+python3 folder_sync.py /path/to/source /path/to/replica sync.log 5
 
 
 This command will synchronize the `/path/to/source` folder with the `/path/to/replica` folder every 60 seconds. The synchronization operations will be logged to `sync.log`.
+
+## Testing
+
+There is a unit test `unit_test.py` created for ensuring the program is working as intended.
+To run the test, run the following command:
+```
+python3 unit_test.py
+```
 
 ## Improvements and Customization
 
